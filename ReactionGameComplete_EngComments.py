@@ -23,7 +23,7 @@ rotr=3
 tasterl=4
 tasterr=5
 
-Reaktion=[4,18,23,24,25,17]
+Reaktion=[4,18,23,24,16,20]
 
 #Defining the Ports as In/Output
 GPIO.setup(Reaktion[blaul],GPIO.OUT,initial=False)
