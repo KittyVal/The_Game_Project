@@ -93,6 +93,7 @@ def game_over():
         global timelist
         global difficulty
         global hardcorehs
+        global highscore
     print("Sie haben verloren!", f"Ihr Streak: {streak}", f"Ihre Durchschnittszeit: {statistics.median(timelist): .4f}", f"Highscore: {max(highscore)}", sep="\n")
     if difficulty==10:
         hardcorehs.append(streak)
